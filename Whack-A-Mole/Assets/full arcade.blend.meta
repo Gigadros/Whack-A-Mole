@@ -1,0 +1,277 @@
+fileFormatVersion: 2
+guid: 5a018bcf65cb6914dba4afc943228f54
+timeCreated: 1509560545
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Arcade_Room
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arcade_Base_001_Colour
+    second: {fileID: 2100000, guid: 89de7502f004e2e4185892b1c9a200ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arcade_Base_001_Colour_001
+    second: {fileID: 2100000, guid: bb269beeaaaf20245983c0445b140556, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arcade_Base_002_Colour
+    second: {fileID: 2100000, guid: 0d4ed123c8d07e543b3fd4ddf0bd880d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arcade_Base_002_Colour_001
+    second: {fileID: 2100000, guid: 941bf6f4af323674599997a3ad3faf96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arcade_Base_003_Colour
+    second: {fileID: 2100000, guid: 9fce129acc0d6e24c9884f53acaa1f09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arcade_Base_003_Colour_001
+    second: {fileID: 2100000, guid: 35fe7647c3ce7b14f904c78ff578b4c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arcade_Screen_Colour
+    second: {fileID: 2100000, guid: 35d22a38154460f46a88580c342372ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arcade_Screen_Colour_001
+    second: {fileID: 2100000, guid: 42dec3b6d04a40441ac28988abaecfcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue_Button_Colour
+    second: {fileID: 2100000, guid: 8acbf79fc73a42b4c95c00457574570c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue_Button_Colour_001
+    second: {fileID: 2100000, guid: aa213185795b8694ca3763a47f8e1127, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Control_Panel_Colour
+    second: {fileID: 2100000, guid: 996510552b0255d42aef477db1fa1b1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Control_Panel_Colour_001
+    second: {fileID: 2100000, guid: 1e74b3fb606e5e84887d50eab6b9fc41, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Colour
+    second: {fileID: 2100000, guid: 4bc97591a09902a40a9af58de7d02d01, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_Colour
+    second: {fileID: 2100000, guid: a8b79b4630af1f640914ef9c54c61539, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Green_Button_Colour
+    second: {fileID: 2100000, guid: 02b759527b96da640bf992acbb17992a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Green_Button_Colour_001
+    second: {fileID: 2100000, guid: f54fcb0081d4ae94a883a5df48966282, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Joystick_Guard_Colour
+    second: {fileID: 2100000, guid: 2d8fdc80935643844b58cf8b74629497, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Joystick_Guard_Colour_001
+    second: {fileID: 2100000, guid: 7f6408dba9a11b042863c6ab224506d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Joystick_Shaft_Colour
+    second: {fileID: 2100000, guid: 57fd85a57da1a8545a5819019a82d93a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Joystick_Shaft_Colour_001
+    second: {fileID: 2100000, guid: e4db734eb00edbd4c832f027277b9b26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Colour
+    second: {fileID: 2100000, guid: 870dc5ddf3378024581523b4a786bf79, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Panel_Colour
+    second: {fileID: 2100000, guid: 8b3087742e927cc44bca1dd6f50dca97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Panel_Colour_001
+    second: {fileID: 2100000, guid: fb0328f20e62b0c4cb8bc24fe5879e52, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pinball_Accent_Colour
+    second: {fileID: 2100000, guid: 91d8f5eb5f7c1c94d998e71df49a03a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pinball_Base_Colour
+    second: {fileID: 2100000, guid: 09a0f73df487c8c4c9ab301ddb7800a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pinball_Button_Colour
+    second: {fileID: 2100000, guid: 10c9f451d37f3c044b81e0cf342d9bff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pinball_Game_Colour
+    second: {fileID: 2100000, guid: 9647a04ffc517ae4c9242b91ebf5e7aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pinball_Screen_Colour
+    second: {fileID: 2100000, guid: 2377cc6fd3df83e4eb6b1015c8d82a60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Button_Colour
+    second: {fileID: 2100000, guid: 9ce01b9cd97fc5a44be35e543df9495a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red_Button_Colour_001
+    second: {fileID: 2100000, guid: 76fb15b4eb74e8441ab7526126f46cf5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Title_Plate_Colour
+    second: {fileID: 2100000, guid: 8a2ee45b1c7044542a466178b09ee14e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Title_Plate_Colour_001
+    second: {fileID: 2100000, guid: 4edbde8862471a644b5f0dc4f690bb8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Colour
+    second: {fileID: 2100000, guid: fa81764cc588dcb44a547997e37c03c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Decal_Colour
+    second: {fileID: 2100000, guid: 86c2628413593ca4387c50fe3f89b163, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window_Colour
+    second: {fileID: 2100000, guid: 085818b0775f996438098e850531cd68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow_Button_Colour
+    second: {fileID: 2100000, guid: 8d0b551f0b46a8143982d61c39808b7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow_Button_Colour_001
+    second: {fileID: 2100000, guid: b367856f7be1f204db9d22016d3dfd59, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
