@@ -53,7 +53,7 @@ f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 dcd23e0b7df528cbf31301999bce321a Assembly-CSharp.dll:.MaskedTile
 8b8d573315d3b0f2cea37c3653f4c9fb Assembly-CSharp.dll:GVR.Input.AppButtonInput
 9eebdaba4c3ccca5613c388153e0b3cc Assembly-CSharp.dll:.TiledPage
-7c6fb094f5246b8f18656fe8bd7cfc58 Assembly-CSharp.dll:.Player
+67d0432d34041dae8575fa30be45f671 Assembly-CSharp.dll:.Player
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -104,6 +104,7 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 6af7378a45ad6da4992a71ef50ddc2eb UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 af723155c251fcfa0e66530a75f3ea4c UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 65ccc5e6c5329a006e5b4f0effd4ff6c Assembly-CSharp.dll:.GvrScrollSettings
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Hammer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DemoSceneManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ObjectPoolManager
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -190,7 +191,7 @@ f12b46990184302ae413ff95cea31566 Assembly-CSharp.dll:.FadeScrollEffect
 5d708ead9a8a3f8af542fec349ed718c Assembly-CSharp.dll:Gvr.Internal.EmulatorConfig
 a8b185f93b85036e13e3f553c802615a Assembly-CSharp.dll:.GvrTooltip
 764d2ecb131d46720e1b8d63b8f7c2ba Assembly-CSharp.dll:.KeyboardDelegateExample
-b16d757d14b9009edb67453916297ca4 Assembly-CSharp.dll:.Mole
+6aa8d1427250a6f5b16f76e9574802e7 Assembly-CSharp.dll:.Mole
 6b8bc70a4e737406cfd584f788ef5376 Assembly-CSharp.dll:.GvrAudioSource
 c5839a4d51b9b5220e5cc04a930d6b3f Assembly-CSharp.dll:.UIFadeTransition
 7f88db6deea6b4d2af344791aaa07731 Assembly-CSharp.dll:.GvrPointerInputModule

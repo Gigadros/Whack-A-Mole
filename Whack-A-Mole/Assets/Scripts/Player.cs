@@ -5,6 +5,8 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
 	public int score = 0;
+	public Hammer hammer;
+	
 	// Use this for initialization
 	void Start () {
 		
@@ -17,8 +19,9 @@ public class Player : MonoBehaviour {
 			if (Physics.Raycast (transform.position, transform.forward, out hit)) {
 				if (hit.transform.GetComponent<Mole> () != null) {
 					Mole mole = hit.transform.GetComponent<Mole> ();
+					if (mole.isVisible) score++;
 					mole.OnHit ();
-					score++;
+					hammer.Hit (mole.transform.position);
 				}
 			}
 		}

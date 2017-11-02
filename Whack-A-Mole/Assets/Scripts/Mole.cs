@@ -8,6 +8,7 @@ public class Mole : MonoBehaviour {
 	public float hiddenHeight = -0.3f;
 	public float speed = 3f;
 	public float disappearDuration = 1.25f;
+	public bool isVisible = false;
 
 	private Vector3 targetPosition;
 	private float disappearTimer = 0f;
@@ -36,7 +37,7 @@ public class Mole : MonoBehaviour {
 			visibleHeight,
 			transform.localPosition.z
 		);
-
+		isVisible = true;
 		disappearTimer = disappearDuration;
 	}
 
@@ -46,6 +47,7 @@ public class Mole : MonoBehaviour {
 			hiddenHeight,
 			transform.localPosition.z
 		);
+		isVisible = false;
 	}
 
 	public void OnHit () {

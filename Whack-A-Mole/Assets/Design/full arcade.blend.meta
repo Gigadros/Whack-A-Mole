@@ -1,15 +1,22 @@
 fileFormatVersion: 2
-guid: 5a018bcf65cb6914dba4afc943228f54
-timeCreated: 1509560545
+guid: 082e5815faa002942b025794b35eb8da
+timeCreated: 1509638398
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Arcade_Room
+    100000: Arcade_Room
+    100002: Ceiling
+    100004: //RootNode
+    400000: Arcade_Room
+    400002: Ceiling
+    400004: //RootNode
+    2300000: Arcade_Room
+    2300002: Ceiling
+    3300000: Arcade_Room
+    3300002: Ceiling
+    4300000: Ceiling
+    4300002: Arcade_Room
     7400000: Default Take
     9500000: //RootNode
   externalObjects:
@@ -63,6 +70,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Blue_Button_Colour_001
     second: {fileID: 2100000, guid: aa213185795b8694ca3763a47f8e1127, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue_Light_Colour
+    second: {fileID: 2100000, guid: 07ba25496c1a18f4ca455783b015520d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceiling_Colour
+    second: {fileID: 2100000, guid: 430dce4b4a474b747a89d874b4c44aec, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -153,6 +170,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Pinball_Screen_Colour
     second: {fileID: 2100000, guid: 2377cc6fd3df83e4eb6b1015c8d82a60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pink_Light_Colour
+    second: {fileID: 2100000, guid: 9998c0d820c98f0498e0d424ddb6575c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

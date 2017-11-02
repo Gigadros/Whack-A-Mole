@@ -11,6 +11,24 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1921058587347512}
   m_IsPrefabParent: 1
+--- !u!1 &1006061162444280
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4599537901202784}
+  - component: {fileID: 33309825907148390}
+  - component: {fileID: 23774957448666562}
+  - component: {fileID: 95655868748758438}
+  m_Layer: 0
+  m_Name: mole
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1921058587347512
 GameObject:
   m_ObjectHideFlags: 0
@@ -19,9 +37,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4384615705257170}
-  - component: {fileID: 33762949678119196}
   - component: {fileID: 136411337907383392}
-  - component: {fileID: 23220917585310066}
   - component: {fileID: 114493206963789164}
   m_Layer: 0
   m_Name: Mole
@@ -36,19 +52,33 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1921058587347512}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.35, z: 0.5}
-  m_Children: []
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.375, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_Children:
+  - {fileID: 4599537901202784}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &23220917585310066
+--- !u!4 &4599537901202784
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1006061162444280}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: -0, y: -0.62, z: 0}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_Children: []
+  m_Father: {fileID: 4384615705257170}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 180, z: 0}
+--- !u!23 &23774957448666562
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1921058587347512}
+  m_GameObject: {fileID: 1006061162444280}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -57,7 +87,12 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 5dd0e18d414ec894faf30892932653f6, type: 2}
+  - {fileID: 2100000, guid: 034e8ab6066a01e40af498513d37616c, type: 2}
+  - {fileID: 2100000, guid: 15f0ce32d10324e4cb45da4e4e5f5d56, type: 2}
+  - {fileID: 2100000, guid: eeeb917815a8fb04cafa8ccbe19e6f87, type: 2}
+  - {fileID: 2100000, guid: 6f97318436f52414da72c2dd5affeff5, type: 2}
+  - {fileID: 2100000, guid: 9517abbb74cf32c4b9690d1dff8900df, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -65,7 +100,7 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
+  m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
@@ -77,13 +112,30 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33762949678119196
+--- !u!33 &33309825907148390
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1921058587347512}
-  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+  m_GameObject: {fileID: 1006061162444280}
+  m_Mesh: {fileID: 4300000, guid: ca4b5be1a55f52048aacfb398877928f, type: 3}
+--- !u!95 &95655868748758438
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1006061162444280}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: ca4b5be1a55f52048aacfb398877928f, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &114493206963789164
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -95,9 +147,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ce6064eee5de404483f5f3b027344e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visibleHeight: 0.2
-  hiddenHeight: -0.3
+  visibleHeight: -0.375
+  hiddenHeight: -0.85
   speed: 4
+  disappearDuration: 1.25
 --- !u!136 &136411337907383392
 CapsuleCollider:
   m_ObjectHideFlags: 1
