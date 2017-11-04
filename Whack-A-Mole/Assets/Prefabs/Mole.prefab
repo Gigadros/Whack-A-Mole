@@ -151,6 +151,7 @@ MonoBehaviour:
   hiddenHeight: -0.85
   speed: 4
   disappearDuration: 1.25
+  isVisible: 0
 --- !u!136 &136411337907383392
 CapsuleCollider:
   m_ObjectHideFlags: 1
